@@ -69,9 +69,6 @@ inside your <application> tag, then the following code is used inside your appli
       public void installing(int completed, int total) {}
 
       @Override
-      public void downloading(int completed, int total) {}
-
-      @Override
       public void exit(String error) {}
     };
 
