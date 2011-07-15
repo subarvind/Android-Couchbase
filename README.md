@@ -55,9 +55,9 @@ The following code is what is needed in your application to start Couchbase as a
 
 as well as
 
-        <service android:name="com.couchbase.libcouch.CouchService"
-                 android:enabled="true"
-                 android:exported="false"></service>
+    <service android:name="com.couchbase.libcouch.CouchService"
+             android:enabled="true"
+             android:exported="false"></service>
 
 inside your <application> tag, then the following code is used inside your application to start Couchbase
 
